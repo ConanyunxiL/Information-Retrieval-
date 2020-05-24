@@ -1,2 +1,5 @@
 # Information-Retrieval-
  Proximity features implantation 
+ 
+Learning-to-rank is a recent paradigm used by commercial search engines to improve retrieval
+effectiveness by combining different sources of evidence (aka features). The key point of learningto-rank is that it is easy to incorporate new features and to leverage the amount of potential training data available to Web search engines. this repository will be trying learning to rank using a number of standard or provided features, and implementing two additional features of your own. In particular, you will be implementing, testing and evaluating two proximity features, which aim to boost the scores of documents where the query terms appear in close proximity. Similar to Exercise 1, you will then be analysing the obtained results and commenting on the effectiveness of the IR system, including the effectiveness of your new features, but only using the homepage finding topic set (HP04). Effectiveness will be measured using two metrics: Mean Average Precision (MAP) and Precision at Rank 5 (P@5).
